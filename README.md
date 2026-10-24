@@ -145,6 +145,15 @@ item title.
 
   <img src="docs/images/items/mallas-soul-stone.jpg" alt="Malla’s Soul Stone in-game item description">
 
+  This fork patches the installed `AMSOUL01.ITM` instead of replacing it. It
+  adds +1 Strength and +10 Hit Points while equipped, unless an equivalent
+  unconditional bonus already exists. Existing effects, active abilities,
+  icons, usability restrictions and other item fields are preserved. The
+  existing description is retained, with a localized note for bonuses added.
+  Install this component after the other mod that changes Malla’s Soul Stone.
+  The historical preview above shows the original pack's replacement; the
+  patched item's final properties depend on the previously installed version.
+
 </details>
 
 <details>

@@ -1,0 +1,99 @@
+// Add only the pack's new bonuses to the installed item. In particular, keep
+// existing Dexterity/Constitution effects, active abilities and visual changes.
+COPY_EXISTING ~AMSOUL01.ITM~ ~override~
+  PATCH_IF (SOURCE_SIZE >= 0x72) BEGIN
+    READ_ASCII 0 uip_malla_signature (8)
+    PATCH_IF (~%uip_malla_signature%~ STRING_EQUAL ~ITM V1  ~) BEGIN
+      SPRINT uip_malla_bonus_lines ~~
+
+      PATCH_FOR_EACH uip_malla_opcode IN 44 18 BEGIN
+        SET uip_malla_amount = 1
+        PATCH_IF (uip_malla_opcode = 18) BEGIN
+          SET uip_malla_amount = 10
+        END
+
+        // Check only unconditional, additive, self-targeted equipping effects.
+        // An effect on an active ability must not suppress an equipped bonus.
+        READ_LONG  0x6a uip_malla_effects_offset
+        READ_SHORT 0x6e uip_malla_equipped_index
+        READ_SHORT 0x70 uip_malla_equipped_count
+        SET uip_malla_found = 0
+        FOR (uip_malla_i = 0; uip_malla_i < uip_malla_equipped_count; ++uip_malla_i) BEGIN
+          SET uip_malla_offset = uip_malla_effects_offset + 0x30 * (uip_malla_equipped_index + uip_malla_i)
+          READ_SHORT uip_malla_offset        uip_malla_existing_opcode
+          READ_BYTE (uip_malla_offset + 0x02) uip_malla_target
+          READ_BYTE (uip_malla_offset + 0x03) uip_malla_power
+          READ_LONG (uip_malla_offset + 0x04) uip_malla_parameter1
+          READ_LONG (uip_malla_offset + 0x08) uip_malla_parameter2
+          READ_BYTE (uip_malla_offset + 0x0c) uip_malla_timing
+          READ_BYTE (uip_malla_offset + 0x0d) uip_malla_resist_dispel
+          READ_BYTE (uip_malla_offset + 0x12) uip_malla_probability1
+          READ_BYTE (uip_malla_offset + 0x13) uip_malla_probability2
+          READ_LONG (uip_malla_offset + 0x24) uip_malla_savingthrow
+          PATCH_IF (uip_malla_existing_opcode = uip_malla_opcode
+                    AND uip_malla_target = 1
+                    AND uip_malla_power = 0
+                    AND uip_malla_parameter1 = uip_malla_amount
+                    AND uip_malla_parameter2 = 0
+                    AND uip_malla_timing = 2
+                    AND uip_malla_resist_dispel = 0
+                    AND uip_malla_probability1 = 100
+                    AND uip_malla_probability2 = 0
+                    AND uip_malla_savingthrow = 0) BEGIN
+            SET uip_malla_found = 1
+          END
+        END
+
+        PATCH_IF (NOT uip_malla_found) BEGIN
+          // Insert after the equipped block and preserve all active abilities.
+          // Do not use ADD_ITEM_EQEFFECT here: WeiDU 251 treats a nonzero
+          // equipped-effect index as a byte offset instead of an effect index.
+          READ_LONG  0x64 uip_malla_abilities_offset
+          READ_SHORT 0x68 uip_malla_abilities_count
+          PATCH_IF (uip_malla_effects_offset = 0) BEGIN
+            SET uip_malla_effects_offset = BUFFER_LENGTH
+            WRITE_LONG 0x6a uip_malla_effects_offset
+          END
+          SET uip_malla_insert_index = uip_malla_equipped_index + uip_malla_equipped_count
+          SET uip_malla_insert_offset = uip_malla_effects_offset + 0x30 * uip_malla_insert_index
+          INSERT_BYTES uip_malla_insert_offset 0x30
+          WRITE_SHORT uip_malla_insert_offset uip_malla_opcode
+          WRITE_BYTE (uip_malla_insert_offset + 0x02) 1 // self
+          WRITE_LONG (uip_malla_insert_offset + 0x04) uip_malla_amount
+          WRITE_BYTE (uip_malla_insert_offset + 0x0c) 2 // while equipped
+          WRITE_BYTE (uip_malla_insert_offset + 0x12) 100
+          WRITE_SHORT 0x70 (uip_malla_equipped_count + 1)
+
+          PATCH_IF (uip_malla_abilities_offset >= uip_malla_insert_offset) BEGIN
+            SET uip_malla_abilities_offset += 0x30
+            WRITE_LONG 0x64 uip_malla_abilities_offset
+          END
+          FOR (uip_malla_j = 0; uip_malla_j < uip_malla_abilities_count; ++uip_malla_j) BEGIN
+            SET uip_malla_ability_offset = uip_malla_abilities_offset + 0x38 * uip_malla_j
+            READ_SHORT (uip_malla_ability_offset + 0x20) uip_malla_ability_index
+            PATCH_IF (uip_malla_ability_index >= uip_malla_insert_index) BEGIN
+              WRITE_SHORT (uip_malla_ability_offset + 0x20) (uip_malla_ability_index + 1)
+            END
+          END
+          PATCH_IF (uip_malla_opcode = 44) BEGIN
+            SPRINT uip_malla_bonus_line @117
+          END ELSE BEGIN
+            SPRINT uip_malla_bonus_line @118
+          END
+          SPRINT uip_malla_bonus_lines ~%uip_malla_bonus_lines%
+%uip_malla_bonus_line%~
+        END
+      END
+
+      // Preserve the current description and document only bonuses added here.
+      PATCH_IF (NOT (~%uip_malla_bonus_lines%~ STRING_EQUAL ~~)) BEGIN
+        READ_STRREF 0x54 uip_malla_description ELSE ~~
+        SPRINT uip_malla_bonus_heading @16
+        SAY_EVALUATED DESC ~%uip_malla_description%
+
+%uip_malla_bonus_heading%%uip_malla_bonus_lines%~
+      END
+    END
+  END
+  BUT_ONLY
+  IF_EXISTS

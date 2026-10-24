@@ -187,17 +187,7 @@ Síla 3
 
 Váha: 5~
 
-@16    = ~Malý hvězdný safír, který obsahuje duši nevinné mladé dívky, Mally, má kouzelnou schopnost plout nad čelem člověka a fungovat jako iounský kámen značné síly. Nicméně jenom ti s minimálním svědomím by zauvažovali o použití tohoto drahokamu.
-
-VLASTNOSTI:
-
-Při vybavení:
-– Síla: +1
-– Obratnosti: +1
-– Odolnosti: +1
-– Životy: +10
-
-Váha: 2~
+@16    = ~Schopnosti při vybavení přidané modem Unofficial Item Pack:~
 
 @17    = ~Obouruční meč +4: Zloděj duší
 Sociální faux pas dostalo zbohatlíka Andora Licona do souboje s baronem Eeirkem, dědicem válečného krále. Ačkoliv se zdáli být stejně obratní, Andorovy dovednosti podivně slábly s každým zásahem baronovy rodinné čepele. V panice pokynul svým tělesným strážím, aby Eeirka zabily. Ačkoliv se oháněl morálkou, někteří z přítomných si povšimli, že mladý šlechtic své muže před začátkem souboje rovnoměrně rozmístil a ačkoliv prohlašoval, že temnou magií pohrdá, vydělal na prodeji této zkažené čepele slušný balík. 
@@ -480,3 +470,6 @@ Při použití:
 – Imunita na magické formy uvěznění
 
 Váha: 6~
+
+@117 = ~- Síla: +1~
+@118 = ~- Životy: +10~

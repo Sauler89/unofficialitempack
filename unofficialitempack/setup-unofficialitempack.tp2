@@ -21,7 +21,9 @@ COPY ~unofficialitempack/SoD_items/IBDKEYR.BAM~ ~override/IBDKEYR.BAM~
 COPY ~unofficialitempack/SoD_items/MOS4700.PVRZ~ ~override/MOS4700.PVRZ~
 COPY ~unofficialitempack/SoD_items/MOS4703.PVRZ~ ~override/MOS4703.PVRZ~
 
+// Exclude even a stale replacement left in the folder by an older package.
 COPY ~unofficialitempack/Items~ ~override~
+  IF_EVAL (NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~AMSOUL01.ITM~))
 
 COPY ~unofficialitempack/SoD_items/bdkeyr.STO~ ~override/bdkeyr.STO~
 
@@ -95,8 +97,7 @@ COPY ~unofficialitempack/Items/ILEAT21.BAM~ ~override/ILEAT21.BAM~
 COPY ~unofficialitempack/Items/LEAT21.ITM~ ~override/LEAT21.ITM~
 SAY DESC @15
 
-COPY ~unofficialitempack/Items/AMSOUL01.ITM~ ~override/AMSOUL01.ITM~
-SAY DESC @16
+INCLUDE ~unofficialitempack/patches/malla_soul_stone.tph~
 
 COPY ~unofficialitempack/Items/SW2H08.ITM~ ~override/SW2H08.ITM~
 SAY DESC @17

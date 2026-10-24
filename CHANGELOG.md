@@ -30,6 +30,16 @@ chosen by the original author, including `2.7b`.
 
 ## [Unreleased]
 
+### Fixed
+
+- Malla’s Soul Stone now receives +1 Strength and +10 Hit Points through a
+  targeted patch to the installed item. Existing effects, activated abilities,
+  icons, restrictions and the description from earlier mods are retained.
+- Do not duplicate equivalent equipped bonuses. Append localized description
+  notes only for bonuses actually added, in English, Czech and Italian.
+- Removed the packaged Malla item and excluded stale copies from the initial
+  item-directory copy, so older files cannot silently overwrite the item.
+
 ### Removed
 
 - Personal fork: removed Scarlet Katana, Gourmet from Underdark, SoD Items,

@@ -189,17 +189,7 @@ Forza 3
 
 Peso: 5~
 
-@16    = ~Il piccolo zaffiro a stella che conserva l'anima della giovane innocente, Malla, ha la magica capacità di fluttuare davanti alla fronte e di funzionare come una pietra ioun di considerevole potere. Tuttavia, solo coloro che non hanno una coscienza penserebbero di utilizzare questo oggetto.
-
-STATISTICHE:
-
-Abilità durante l'uso:
-– Forza: +1
-– Destrezza: +1
-– Costituzione: +1
-– Punti Ferita: +10
-
-Peso: 2~
+@16    = ~Abilità durante l'uso aggiunte da Unofficial Item Pack:~
 
 @17    = ~Un finto torto provocò un duello tra l'arrampicatore sociale Andor Licon e il Barone Eeirk, erede di un re guerriero. Sebbene i duellanti sembrassero entrambi di pari abilità, Andor diventava stranamente più debole ad ogni colpo della lama della famiglia del Barone. Preso dal panico, ordinò alle sue guardie del corpo di uccidere Eeirk. Nonostante le sue rivendicazioni di moralità, alcuni notarono che il giovane nobile aveva posizionato i suoi uomini prima che il duello fosse persino iniziato e, sebbene professasse disdegno per la sua magia nera, Andor fece una considerevole fortuna dalla vendita della malvagia spada.
 
@@ -478,3 +468,6 @@ Abilità durante l'uso:
 – Immunità a forme magiche di imprigionamento
 
 Peso: 6~
+
+@117 = ~- Forza: +1~
+@118 = ~- Punti Ferita: +10~
