@@ -329,9 +329,16 @@ Completely new (almost) original items.
 </details>
 
 <details>
-  <summary><strong>Hourglass of Gond</strong> — Reward for the hardest fight of your life.</summary>
+  <summary><strong>Hourglass of Gond</strong> — In the inventory of its original recipient, MAGE18Z.</summary>
 
   <img src="docs/images/items/hourglass-of-gond.jpg" alt="Hourglass of Gond in-game item description">
+
+  This fork places `HODIN.ITM` only on its original recipient, `MAGE18Z.CRE`,
+  in an inventory slot. Duplicate or equipped copies on that creature are
+  consolidated into one inventory copy. An existing single inventory copy
+  is preserved. This item installs no encounter scripts; vanilla scripts and
+  script assignments from other mods are preserved. The current mod package
+  contains no custom scripts for this encounter.
 
 </details>
 

@@ -32,6 +32,12 @@ chosen by the original author, including `2.7b`.
 
 ### Fixed
 
+- Hourglass of Gond is placed in the inventory of its original recipient,
+  `MAGE18Z.CRE`, without assigning or clearing any creature scripts. Vanilla
+  scripts and script assignments from other mods are preserved.
+- Consolidate duplicate or equipped hourglasses on that creature into one
+  inventory copy. Preserve an existing single inventory copy and avoid
+  duplicates when the placement patch is applied again.
 - Malla’s Soul Stone now receives +1 Strength and +10 Hit Points through a
   targeted patch to the installed item. Existing effects, activated abilities,
   icons, restrictions and the description from earlier mods are retained.

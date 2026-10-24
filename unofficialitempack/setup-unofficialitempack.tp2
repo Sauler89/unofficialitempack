@@ -168,8 +168,41 @@ SAY DESC @106
 SAY NAME1 @104
 SAY NAME2 @105
 
+// Hourglass of Gond: original recipient, inventory only; preserve all scripts.
 COPY_EXISTING ~MAGE18Z.CRE~ ~override~
-ADD_CRE_ITEM ~HODIN~ #0 #0 #0 ~IDENTIFIED~ ~INV~
+  PATCH_IF (SOURCE_SIZE >= 0x2d4) BEGIN
+    READ_ASCII 0 uip_gond_cre_signature (8)
+    PATCH_IF (~%uip_gond_cre_signature%~ STRING_EQUAL ~CRE V1.0~) BEGIN
+      READ_LONG 0x2bc uip_gond_items_offset
+      READ_LONG 0x2c0 uip_gond_items_count
+      SET uip_gond_copies = 0
+      SET uip_gond_item_index = (0 - 1)
+      FOR (uip_gond_i = 0; uip_gond_i < uip_gond_items_count; ++uip_gond_i) BEGIN
+        READ_ASCII (uip_gond_items_offset + 0x14 * uip_gond_i) uip_gond_item (8) NULL
+        PATCH_IF (~%uip_gond_item%~ STRING_EQUAL_CASE ~HODIN~) BEGIN
+          SET uip_gond_copies += 1
+          SET uip_gond_item_index = uip_gond_i
+        END
+      END
+
+      READ_LONG 0x2b8 uip_gond_slots_offset
+      SET uip_gond_in_inventory = 0
+      FOR (uip_gond_slot = 21; uip_gond_slot <= 36; ++uip_gond_slot) BEGIN
+        READ_SHORT (uip_gond_slots_offset + 2 * uip_gond_slot) uip_gond_slot_index
+        PATCH_IF (uip_gond_slot_index = uip_gond_item_index) BEGIN
+          SET uip_gond_in_inventory = 1
+        END
+      END
+
+      PATCH_IF (uip_gond_copies != 1 OR NOT uip_gond_in_inventory) BEGIN
+        PATCH_IF (uip_gond_copies > 0) BEGIN
+          REMOVE_CRE_ITEM ~HODIN~
+        END
+        ADD_CRE_ITEM ~HODIN~ #0 #0 #0 ~IDENTIFIED~ ~INV~
+      END
+    END
+  END
+  BUT_ONLY
 
 COPY ~unofficialitempack/Items/MDOG1.BAM~ ~override/MDOG1.BAM~
 COPY ~unofficialitempack/Items/MDOG2.BAM~ ~override/MDOG2.BAM~
