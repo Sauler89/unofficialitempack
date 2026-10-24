@@ -54,24 +54,6 @@ STATISTICHE:
 
 Peso: 1~
 
-@6    = ~Questa mazza è stata creata dai drow con grande abilità e trattata specificatamente per sopravvivere alla luce del sole. È stata realizzata per le incursioni in superficie da parte delle razze del Sottosuolo... e il suo metallo nero trasuda uno strano veleno che sembra generarsi dall'interno e che causa danni incredibili a contatto.
-
-La mazza sembra quasi viva e calda al tocco e scivola via dalle mani di coloro che non gradisce... e gradisce solo i drow o quanti sono abbastanza simili a loro da non essere distinguibili. Nelle mani di chiunque altro, la mazza diventa un peso morto.
-
-STATISTICHE:
-
-Abilità in combattimento:
-– Il bersaglio colpito deve effettuare con successo un tiro-salvezza contro Veleno con una penalità pari a -2 o subire 2 punti di danno per round per 1 turno
-
-THAC0: +3
-Danno: 1d6+4 (contundente)
-Fattore-velocità: 6
-Tipo di Competenza: Mace
-Tipo: A una mano
-
-Peso: 7~
-
-
 @7    = ~Il Mantello Distorcente è un oggetto magico che causa una leggera sfocatura nell'aspetto del suo portatore. Ha il potere di spostare in una direzione qualsiasi l'immagine di un individuo, sino a un massimo di 15 centimetri dalla sua attuale posizione. Se da una parte è un'ottima difesa nei combattimenti, dall'altra è stato anche causa di affaticamento oculare tra i compagni di viaggio nel gruppo del portatore.
 
 STATISTICHE:

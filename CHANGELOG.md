@@ -42,6 +42,10 @@ chosen by the original author, including `2.7b`.
 
 ### Removed
 
+- Removed the Handmaiden’s Mace rework, its packaged item, dedicated strings
+  in all three languages, and catalogue preview. The game’s existing item is
+  left untouched, including any changes made by other mods. Stale replacement
+  files from older packages are excluded from installation.
 - Personal fork: removed Scarlet Katana, Gourmet from Underdark, SoD Items,
   and Reworked free action from the installer, catalogue, and translations.
 - Removed assets exclusive to those components. Retained the shared key ring
