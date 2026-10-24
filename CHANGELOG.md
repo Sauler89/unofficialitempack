@@ -30,6 +30,16 @@ chosen by the original author, including `2.7b`.
 
 ## [Unreleased]
 
+### Removed
+
+- Personal fork: removed Scarlet Katana, Gourmet from Underdark, SoD Items,
+  and Reworked free action from the installer, catalogue, and translations.
+- Removed assets exclusive to those components. Retained the shared key ring
+  and archery ammunition with their graphics, and made their remaining consumers
+  install these dependencies independently.
+- Preserved the remaining WeiDU component IDs (0, 3, 4, 6) explicitly.
+  Uninstall removed components with the previous version before updating.
+
 ### Added
 
 - Established the GitHub repository as a public workspace for preservation,
@@ -191,3 +201,4 @@ When preparing a pull request:
    correction is necessary.
 6. Link important compatibility changes to their GitHub issue or pull request
    when possible.
+

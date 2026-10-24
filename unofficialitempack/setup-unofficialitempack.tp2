@@ -14,6 +14,12 @@ LANGUAGE ~Italian~
          ~unofficialitempack/tra/it_IT/setup-unofficialitempack.tra~
 
 BEGIN @0
+DESIGNATED 0
+
+COPY ~unofficialitempack/SoD_items/CBDKEYR.BAM~ ~override/CBDKEYR.BAM~
+COPY ~unofficialitempack/SoD_items/IBDKEYR.BAM~ ~override/IBDKEYR.BAM~
+COPY ~unofficialitempack/SoD_items/MOS4700.PVRZ~ ~override/MOS4700.PVRZ~
+COPY ~unofficialitempack/SoD_items/MOS4703.PVRZ~ ~override/MOS4703.PVRZ~
 
 COPY ~unofficialitempack/Items~ ~override~
 
@@ -116,29 +122,8 @@ ADD_CRE_ITEM ~BRAC16~ #0 #0 #0 ~IDENTIFIED~ ~INV~
 COPY_EXISTING ~SAHIMP07.CRE~ ~override~
 ADD_CRE_ITEM ~BRAC16~ #0 #0 #0 ~IDENTIFIED~ ~INV~
 
-BEGIN @18
-COPY ~unofficialitempack/katana~ ~override~
-
-COPY ~unofficialitempack/katana/isq1h70.BAM~ ~override/isq1h70.BAM~
-
-COPY ~unofficialitempack/katana/WANINJA.ITM~ ~override/WANINJA.ITM~
-SAY DESC @19
-SAY NAME1 @20
-SAY NAME2 @21
-
-BEGIN @22
-COPY ~unofficialitempack/food~ ~override~
-
-COPY ~unofficialitempack/food/MISCA8.ITM~ ~override/MISCA8.ITM~
-SAY DESC @23
-
-COPY ~unofficialitempack/food/MISCA7.ITM~ ~override/MISCA7.ITM~
-SAY DESC @24
-
-COPY ~unofficialitempack/food/MISCBV.ITM~ ~override/MISCBV.ITM~
-SAY DESC @25
-
 BEGIN @26
+DESIGNATED 3
 COPY ~unofficialitempack/symbols~ ~override~
 
 COPY ~unofficialitempack/symbols/BELT12.ITM~ ~override/BELT12.ITM~
@@ -160,6 +145,7 @@ COPY ~unofficialitempack/symbols/beltty.ITM~ ~override/beltty.ITM~
 SAY DESC @32
 
 BEGIN @35
+DESIGNATED 4
 COPY ~unofficialitempack/new_items~ ~override~
 
 COPY ~unofficialitempack/new_items/CLEAVERX.BMP~ ~override/CLEAVERX.BMP~
@@ -228,167 +214,16 @@ SAY NAME2 @115
 COPY_EXISTING ~HLDEMI.CRE~ ~override~
 ADD_CRE_ITEM ~GAXROB~ #0 #0 #0 ~IDENTIFIED~ ~INV~
 
-BEGIN @39
-COPY ~unofficialitempack/SoD_items~ ~override~
+BEGIN @82
+DESIGNATED 6
 
-COPY ~unofficialitempack/SoD_items/bdblun07.ITM~ ~override/bdblun07.ITM~
-SAY DESC @40
-SAY NAME1 @41
-SAY NAME2 @42
-
-COPY ~unofficialitempack/SoD_items/bdbrac03.ITM~ ~override/bdbrac03.ITM~
-SAY DESC @43
-SAY NAME1 @44
-SAY NAME2 @45
-
-COPY ~unofficialitempack/SoD_items/bdbrac05.ITM~ ~override/bdbrac05.ITM~
-SAY DESC @46
-SAY NAME1 @47
-SAY NAME2 @48
-
-COPY ~unofficialitempack/SoD_items/bdbrd04.ITM~ ~override/bdbrd04.ITM~
-SAY DESC @49
-SAY NAME1 @50
-SAY NAME2 @51
-
-COPY ~unofficialitempack/SoD_items/bdclck05.ITM~ ~override/bdclck05.ITM~
-SAY DESC @52
-SAY NAME1 @53
-SAY NAME2 @54
-
-COPY ~unofficialitempack/SoD_items/bdhelm01.ITM~ ~override/bdhelm01.ITM~
-SAY DESC @55
-SAY NAME1 @56
-SAY NAME2 @57
-
-COPY ~unofficialitempack/SoD_items/bdhelm12.ITM~ ~override/bdhelm12.ITM~
-SAY DESC @58
-SAY NAME1 @59
-SAY NAME2 @60
-
-COPY ~unofficialitempack/SoD_items/bdhelmca.ITM~ ~override/bdhelmca.ITM~
-SAY DESC @61
-SAY NAME1 @62
-SAY NAME2 @63
-
-COPY ~unofficialitempack/SoD_items/bdplat03.ITM~ ~override/bdplat03.ITM~
-SAY DESC @64
-SAY NAME1 @65
-SAY NAME2 @66
-
-COPY ~unofficialitempack/SoD_items/bdrobe01.ITM~ ~override/bdrobe01.ITM~
-SAY DESC @67
-SAY NAME1 @68
-SAY NAME2 @69
-
-COPY ~unofficialitempack/SoD_items/bdshld03.ITM~ ~override/bdshld03.ITM~
-SAY DESC @70
-SAY NAME1 @71
-SAY NAME2 @72
-
-COPY ~unofficialitempack/SoD_items/bdbow03.ITM~ ~override/bdbow03.ITM~
-SAY DESC @73
-SAY NAME1 @74
-SAY NAME2 @75
-
-COPY ~unofficialitempack/SoD_items/bdhelm15.ITM~ ~override/bdhelm15.ITM~
-SAY DESC @109
-SAY NAME1 @107
-SAY NAME2 @108
-
-COPY ~unofficialitempack/SoD_items/BDHELM01.BAM~ ~override/BDHELM01.BAM~
-COPY ~unofficialitempack/SoD_items/BDCHLM01.BMP~ ~override/BDCHLM01.BMP~
 COPY ~unofficialitempack/SoD_items/bdiblt02.BAM~ ~override/bdiblt02.BAM~
-COPY ~unofficialitempack/SoD_items/CBDBRC05.BMP~ ~override/CBDBRC05.BMP~
-COPY ~unofficialitempack/SoD_items/CBDBRD04.BMP~ ~override/CBDBRD04.BMP~
-COPY ~unofficialitempack/SoD_items/CBDHEL12.BMP~ ~override/CBDHEL12.BMP~
-COPY ~unofficialitempack/SoD_items/CBDHELCA.BMP~ ~override/CBDHELCA.BMP~
-COPY ~unofficialitempack/SoD_items/CBDPLT03.BMP~ ~override/CBDPLT03.BMP~
-COPY ~unofficialitempack/SoD_items/CBLUN01.BMP~ ~override/CBLUN01.BMP~
-COPY ~unofficialitempack/SoD_items/CBOW14.BAM~ ~override/CBOW14.BAM~
-COPY ~unofficialitempack/SoD_items/CBOW14.BMP~ ~override/CBOW14.BMP~
-COPY ~unofficialitempack/SoD_items/CBRAC18.BAM~ ~override/CBRAC18.BAM~
-COPY ~unofficialitempack/SoD_items/CCLCK15.BAM~ ~override/CCLCK15.BAM~
-COPY ~unofficialitempack/SoD_items/CCLCK24.BAM~ ~override/CCLCK24.BAM~ 
-COPY ~unofficialitempack/SoD_items/CCLCK24.BMP~ ~override/CCLCK24.BMP~
-COPY ~unofficialitempack/SoD_items/CSHLD22.BAM~ ~override/CSHLD22.BAM~
-COPY ~unofficialitempack/SoD_items/GAMUL02.BAM~ ~override/GAMUL02.BAM~
-COPY ~unofficialitempack/SoD_items/GBLUN01.BAM~ ~override/GBLUN01.BAM~
-COPY ~unofficialitempack/SoD_items/GBOLT01.BAM~ ~override/GBOLT01.BAM~
-COPY ~unofficialitempack/SoD_items/GBOW02.BAM~ ~override/GBOW02.BAM~
-COPY ~unofficialitempack/SoD_items/GBRAC06.BAM~ ~override/GBRAC06.BAM~
-COPY ~unofficialitempack/SoD_items/GCLCK01.BAM~ ~override/GCLCK01.BAM~
-COPY ~unofficialitempack/SoD_items/GCLCK02.BAM~ ~override/GCLCK02.BAM~
-COPY ~unofficialitempack/SoD_items/GMSHLD.BAM~ ~override/GMSHLD.BAM~
-COPY ~unofficialitempack/SoD_items/GPLAT01.BAM~ ~override/GPLAT01.BAM~
-COPY ~unofficialitempack/SoD_items/GSACK01.BAM~ ~override/GSACK01.BAM~
-COPY ~unofficialitempack/SoD_items/IBDBLN07.BAM~ ~override/IBDBLN07.BAM~
-COPY ~unofficialitempack/SoD_items/IBDBLT01.BAM~ ~override/IBDBLT01.BAM~
-COPY ~unofficialitempack/SoD_items/IBDBOW03.BAM~ ~override/IBDBOW03.BAM~
-COPY ~unofficialitempack/SoD_items/IBDBRC03.BAM~ ~override/IBDBRC03.BAM~
-COPY ~unofficialitempack/SoD_items/IBDBRC05.BAM~ ~override/IBDBRC05.BAM~
-COPY ~unofficialitempack/SoD_items/IBDBRD04.BAM~ ~override/IBDBRD04.BAM~
-COPY ~unofficialitempack/SoD_items/IBDCLK05.BAM~ ~override/IBDCLK05.BAM~
-COPY ~unofficialitempack/SoD_items/IBDHEL12.BAM~ ~override/IBDHEL12.BAM~
-COPY ~unofficialitempack/SoD_items/IBDHELCA.BAM~ ~override/IBDHELCA.BAM~
-COPY ~unofficialitempack/SoD_items/IBDPLT03.BAM~ ~override/IBDPLT03.BAM~
-COPY ~unofficialitempack/SoD_items/IBDROB01.BAM~ ~override/IBDROB01.BAM~
-COPY ~unofficialitempack/SoD_items/IBDSHL03.BAM~ ~override/IBDSHL03.BAM~ 
-COPY ~unofficialitempack/SoD_items/CCLCK15.BMP~ ~override/CCLCK15.BMP~ 
-COPY ~unofficialitempack/SoD_items/CSHLD22.BMP~ ~override/CSHLD22.BMP~
-
-COPY ~unofficialitempack/SoD_items/BDCHLM01.BAM~ ~override/BDCHLM01.BAM~
-COPY ~unofficialitempack/SoD_items/CBDBRC05.BAM~ ~override/CBDBRC05.BAM~
-COPY ~unofficialitempack/SoD_items/CBDBRD04.BAM~ ~override/CBDBRD04.BAM~
-COPY ~unofficialitempack/SoD_items/CBDHEL12.BAM~ ~override/CBDHEL12.BAM~
-COPY ~unofficialitempack/SoD_items/CBDHELCA.BAM~ ~override/CBDHELCA.BAM~
-COPY ~unofficialitempack/SoD_items/CBDPLT03.BAM~ ~override/CBDPLT03.BAM~
-COPY ~unofficialitempack/SoD_items/MOS4561.PVRZ~ ~override/MOS4561.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4562.PVRZ~ ~override/MOS4562.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4563.PVRZ~ ~override/MOS4563.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4564.PVRZ~ ~override/MOS4564.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4565.PVRZ~ ~override/MOS4565.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4650.PVRZ~ ~override/MOS4650.PVRZ~
-
-COPY ~unofficialitempack/SoD_items/MOS5006.PVRZ~ ~override/MOS5006.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS5005.PVRZ~ ~override/MOS5005.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS5004.PVRZ~ ~override/MOS5004.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS5003.PVRZ~ ~override/MOS5003.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS5002.PVRZ~ ~override/MOS5002.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS5001.PVRZ~ ~override/MOS5001.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS5000.PVRZ~ ~override/MOS5000.PVRZ~
-
-COPY ~unofficialitempack/SoD_items/CBDKEYR.BAM~ ~override/CBDKEYR.BAM~
-COPY ~unofficialitempack/SoD_items/CBDPLT01.BAM~ ~override/CBDPLT01.BAM~
-COPY ~unofficialitempack/SoD_items/CSW1H05.BAM~ ~override/CSW1H05.BAM~
-COPY ~unofficialitempack/SoD_items/IBDKEYR.BAM~ ~override/IBDKEYR.BAM~
-COPY ~unofficialitempack/SoD_items/IBDPLT01.BAM~ ~override/IBDPLT01.BAM~ 
-COPY ~unofficialitempack/SoD_items/IBDS1H02.BAM~ ~override/IBDS1H02.BAM~ 
-
-COPY ~unofficialitempack/SoD_items/MOS4700.PVRZ~ ~override/MOS4700.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4701.PVRZ~ ~override/MOS4701.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4702.PVRZ~ ~override/MOS4702.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4703.PVRZ~ ~override/MOS4703.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4705.PVRZ~ ~override/MOS4705.PVRZ~ 
-COPY ~unofficialitempack/SoD_items/MOS4707.PVRZ~ ~override/MOS4707.PVRZ~ 
-
 COPY ~unofficialitempack/SoD_items/CBOLT15.BAM~ ~override/CBOLT15.BAM~
 COPY ~unofficialitempack/SoD_items/CBOLT16.BAM~ ~override/CBOLT16.BAM~
-COPY ~unofficialitempack/SoD_items/bdiblt02.BAM~ ~override/bdiblt02.BAM~
+COPY ~unofficialitempack/SoD_items/GBOLT01.BAM~ ~override/GBOLT01.BAM~
 COPY ~unofficialitempack/SoD_items/IBDBLT01.BAM~ ~override/IBDBLT01.BAM~
-
 COPY ~unofficialitempack/SoD_items/MOS4710.PVRZ~ ~override/MOS4710.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4711.PVRZ~ ~override/MOS4711.PVRZ~
-COPY ~unofficialitempack/SoD_items/MOS4712.PVRZ~ ~override/MOS4712.PVRZ~
 COPY ~unofficialitempack/SoD_items/MOS4713.PVRZ~ ~override/MOS4713.PVRZ~
-
-COPY ~unofficialitempack/SoD_items/bdbrd04.EFF~ ~override/bdbrd04.EFF~
-COPY ~unofficialitempack/SoD_items/bdbrac3a.EFF~ ~override/bdbrac3a.EFF~
-COPY ~unofficialitempack/SoD_items/bdbrac3b.EFF~ ~override/bdbrac3b.EFF~
-COPY ~unofficialitempack/SoD_items/bdbrac5a.EFF~ ~override/bdbrac5a.EFF~
-COPY ~unofficialitempack/SoD_items/bdbrac05.EFF~ ~override/bdbrac05.EFF~ 
-
-COPY ~unofficialitempack/SoD_items/1BAND02.BAM~ ~override/1BAND02.BAM~
 
 COPY ~unofficialitempack/SoD_items/bdbolt01.ITM~ ~override/bdbolt01.ITM~
 SAY DESC @76
@@ -415,52 +250,6 @@ SAY DESC @89
 SAY NAME1 @90
 SAY NAME2 @91
 
-COPY ~unofficialitempack/SoD_items/bdkeyr.STO~ ~override/bdkeyr.STO~
-
-COPY ~unofficialitempack/SoD_items/bdkeyr.ITM~ ~override/bdkeyr.ITM~
-SAY DESC @92
-SAY NAME1 @93
-SAY NAME2 @94
-
-COPY ~unofficialitempack/SoD_items/bdplat01.ITM~ ~override/bdplat01.ITM~
-SAY DESC @95
-SAY NAME1 @96
-SAY NAME2 @97
-
-COPY ~unofficialitempack/SoD_items/bdsw1h02.ITM~ ~override/bdsw1h02.ITM~
-SAY DESC @98
-SAY NAME1 @99
-SAY NAME2 @100
-
-COPY_EXISTING ~SHADRA01.CRE~ ~override~
-ADD_CRE_ITEM ~bdsw1h02~ #0 #0 #0 ~IDENTIFIED~ ~INV~
-
-COPY_EXISTING ~DRAGSHAD.CRE~ ~override~
-ADD_CRE_ITEM ~bdsw1h02~ #0 #0 #0 ~IDENTIFIED~ ~INV~
-
-COPY_EXISTING ~DRAGSILV.CRE~ ~override~
-ADD_CRE_ITEM ~ohdscale~ #0 #0 #0 ~IDENTIFIED~ ~INV~
-
-COPY_EXISTING ~UDSILVER.CRE~ ~override~
-ADD_CRE_ITEM ~ohdscale~ #0 #0 #0 ~IDENTIFIED~ ~INV~
-
-COPY_EXISTING ~ribald.sto~ ~override/ribald.sto~
-ADD_STORE_ITEM ~bdbow03~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdshld03~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdrobe01~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdplat03~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdhelmca~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdhelm12~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdhelm01~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdclck05~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdbrd04~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdbrac05~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdbrac03~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdblun07~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdplat01~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~bdhelm15~ #0 #0 #0 ~IDENTIFIED~ #1
-
-BEGIN @82
 
 COPY_EXISTING ~SHOP05.sto~ ~override/SHOP05.sto~
 ADD_STORE_ITEM ~bdbolt01~ #40 #0 #0 ~IDENTIFIED~ #20
@@ -482,11 +271,3 @@ ADD_STORE_ITEM ~bull02~ #40 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~AROW02~ #40 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
 ADD_STORE_ITEM ~BOLT02~ #40 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
 
-BEGIN @113
-
-COPY ~unofficialitempack/free_action~ ~override~
-
-COPY ~unofficialitempack/free_action/SPER12.ITM~ ~override/SPER12.ITM~
-COPY ~unofficialitempack/free_action/RING09.ITM~ ~override/RING09.ITM~
-COPY ~unofficialitempack/free_action/NPPLAT.ITM~ ~override/NPPLAT.ITM~
-COPY ~unofficialitempack/free_action/BLUN30.ITM~ ~override/BLUN30.ITM~
