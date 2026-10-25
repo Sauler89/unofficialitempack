@@ -227,13 +227,6 @@ item title.
 </details>
 
 <details>
-  <summary><strong>Boo</strong> — Simply because I can!</summary>
-
-  <img src="docs/images/items/boo.jpg" alt="Boo in-game item description">
-
-</details>
-
-<details>
   <summary><strong>Deirex’s Gems</strong> — Souls belonging drow warriors? That sounds useful.</summary>
 
   <img src="docs/images/items/deirexs-gems.jpg" alt="Deirex’s Gems in-game item description">

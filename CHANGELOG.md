@@ -48,6 +48,10 @@ chosen by the original author, including `2.7b`.
 
 ### Removed
 
+- Removed the Boo rework (`MISC84.ITM`), its dedicated description in all
+  three languages, and its catalogue preview. The existing game item is
+  preserved, including changes from other mods. Stale replacement files from
+  older packages are excluded from installation.
 - Removed the Handmaiden’s Mace rework, its packaged item, dedicated strings
   in all three languages, and catalogue preview. The game’s existing item is
   left untouched, including any changes made by other mods. Stale replacement

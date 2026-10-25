@@ -24,7 +24,8 @@ COPY ~unofficialitempack/SoD_items/MOS4703.PVRZ~ ~override/MOS4703.PVRZ~
 // Exclude stale replacements left in the folder by older packages.
 COPY ~unofficialitempack/Items~ ~override~
   IF_EVAL (NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~AMSOUL01.ITM~)
-           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~HLOLTH.ITM~))
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~HLOLTH.ITM~)
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~MISC84.ITM~))
 
 COPY ~unofficialitempack/SoD_items/bdkeyr.STO~ ~override/bdkeyr.STO~
 
@@ -86,9 +87,6 @@ SAY DESC @12
 
 COPY ~unofficialitempack/Items/MISC8Z.ITM~ ~override/MISC8Z.ITM~
 SAY DESC @13
-
-COPY ~unofficialitempack/Items/MISC84.ITM~ ~override/MISC84.ITM~
-SAY DESC @14
 
 COPY ~unofficialitempack/Items/ILEAT21.BAM~ ~override/ILEAT21.BAM~
 
