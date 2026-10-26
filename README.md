@@ -234,13 +234,6 @@ item title.
 </details>
 
 <details>
-  <summary><strong>Girdle of Fortitude</strong> — Stay healthy little longer.</summary>
-
-  <img src="docs/images/items/girdle-of-fortitude.jpg" alt="Girdle of Fortitude in-game item description">
-
-</details>
-
-<details>
   <summary><strong>Blackmist +4</strong> — Now you see me...</summary>
 
   <img src="docs/images/items/blackmist-plus-4.jpg" alt="Blackmist plus 4 in-game item description">
