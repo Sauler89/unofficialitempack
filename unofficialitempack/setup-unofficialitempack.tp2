@@ -25,7 +25,8 @@ COPY ~unofficialitempack/SoD_items/MOS4703.PVRZ~ ~override/MOS4703.PVRZ~
 COPY ~unofficialitempack/Items~ ~override~
   IF_EVAL (NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~AMSOUL01.ITM~)
            AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~HLOLTH.ITM~)
-           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~MISC84.ITM~))
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~MISC84.ITM~)
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~SW2H08.ITM~))
 
 COPY ~unofficialitempack/SoD_items/bdkeyr.STO~ ~override/bdkeyr.STO~
 
@@ -94,9 +95,6 @@ COPY ~unofficialitempack/Items/LEAT21.ITM~ ~override/LEAT21.ITM~
 SAY DESC @15
 
 INCLUDE ~unofficialitempack/patches/malla_soul_stone.tph~
-
-COPY ~unofficialitempack/Items/SW2H08.ITM~ ~override/SW2H08.ITM~
-SAY DESC @17
 
 COPY ~unofficialitempack/Items/HALB06.ITM~ ~override/HALB06.ITM~
 SAY DESC @33

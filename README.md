@@ -220,13 +220,6 @@ item title.
 </details>
 
 <details>
-  <summary><strong>Soul Reaver +4</strong> — The ultimate weapon for evil incarnate.</summary>
-
-  <img src="docs/images/items/soul-reaver-plus-4.jpg" alt="Soul Reaver plus 4 in-game item description">
-
-</details>
-
-<details>
   <summary><strong>Deirex’s Gems</strong> — Souls belonging drow warriors? That sounds useful.</summary>
 
   <img src="docs/images/items/deirexs-gems.jpg" alt="Deirex’s Gems in-game item description">
@@ -410,7 +403,7 @@ installation order.
 | **BG2:EE 2.0+** | Primary target | This is the platform specified by the original release. |
 | **Throne of Bhaal content in BG2:EE** | Supported by relevant components | Some items and placements are late-game or expansion-oriented. |
 | **EET** | Historically reported as usable with restrictions | The bulk SoD Items component is removed in this fork. The main component retains its key ring and Better archery shop retains its ammunition; check these for overlap. Current community testing is still required. |
-| **Item Revisions** | Known overlap | Historical reports identify overlap involving Blackmist, Soul Reaver, and Dark Elven Chain. Review current issues before combining the affected components. |
+| **Item Revisions** | Known overlap | Historical reports identify overlap involving Blackmist and Dark Elven Chain. Review current issues before combining the affected components. |
 | **Cowled Menace** | Known historical interaction | Recent versions have worked around several conflicts, but creature inventory changes may still depend on installation order and patching behavior. |
 | **Existing saved games** | Limited reliability | Components that modify stores, creatures, drops, or encounters may require a new game. |
 | **Other item and store mods** | Test carefully | Conflicts are possible when another mod changes the same item, store, creature, or script. |

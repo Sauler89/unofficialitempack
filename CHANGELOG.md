@@ -48,6 +48,10 @@ chosen by the original author, including `2.7b`.
 
 ### Removed
 
+- Removed the Soul Reaver +4 rework (`SW2H08.ITM`), its dedicated descriptions
+  in all three languages, and its catalogue preview. The existing game item
+  and changes from other mods are preserved. Stale replacement files from older
+  packages are excluded from installation.
 - Removed the Boo rework (`MISC84.ITM`), its dedicated description in all
   three languages, and its catalogue preview. The existing game item is
   preserved, including changes from other mods. Stale replacement files from
