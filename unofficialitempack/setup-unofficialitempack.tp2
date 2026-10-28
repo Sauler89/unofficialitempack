@@ -27,7 +27,9 @@ COPY ~unofficialitempack/Items~ ~override~
            AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~HLOLTH.ITM~)
            AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~MISC84.ITM~)
            AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~SW2H08.ITM~)
-           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~BELT09.ITM~))
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~BELT09.ITM~)
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~CLCK03.ITM~)
+           AND NOT (~%SOURCE_FILE%~ STRING_EQUAL_CASE ~MISC72.ITM~))
 
 COPY ~unofficialitempack/SoD_items/bdkeyr.STO~ ~override/bdkeyr.STO~
 
@@ -68,12 +70,6 @@ SAY DESC @4
 
 COPY ~unofficialitempack/Items/MISCBH.ITM~ ~override/MISCBH.ITM~
 SAY DESC @5
-
-COPY ~unofficialitempack/Items/CLCK03.ITM~ ~override/CLCK03.ITM~
-SAY DESC @7
-
-COPY ~unofficialitempack/Items/MISC72.ITM~ ~override/MISC72.ITM~
-SAY DESC @8
 
 COPY ~unofficialitempack/Items/CLOLTH.ITM~ ~override/CLOLTH.ITM~
 SAY DESC @9

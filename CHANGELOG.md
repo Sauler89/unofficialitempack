@@ -48,6 +48,11 @@ chosen by the original author, including `2.7b`.
 
 ### Removed
 
+- Removed the Cloak of Displacement (`CLCK03.ITM`) and The Claw of Kazgaroth
+  (`MISC72.ITM`) reworks, including their installer actions, descriptions in
+  all three languages, and catalogue entries. Existing game items and changes
+  from other mods are preserved; stale replacement files are excluded from
+  installation.
 - Removed the Girdle of Fortitude rework (`BELT09.ITM`), its dedicated
   descriptions in all three languages, and its catalogue preview. The existing
   game item and changes from other mods are preserved. Stale replacement files

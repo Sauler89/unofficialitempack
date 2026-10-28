@@ -54,36 +54,6 @@ STATISTICS:
 
 Weight: 1~
 
-@7    = ~Cloak of Displacement
-The Cloak of Displacement is a magical item that causes subtle shifts in the image of its wearer. It has the power to actually shift an individual's image by as much as six inches in any direction from their actual location. Aside from being an effective defense in combat situations, it has also been the cause of serious eyestrain amongst fellow party members.
-
-STATISTICS:
-
-Equipped abilities:
-– Armor Class: +4 vs. missile attacks
-– Save vs. Death: +2
-– Save vs. Breath: +2
-– Save vs. Wand: +2
-
-Weight: 3~
-
-
-@8    = ~Little is known about this item, other than that the claw itself was taken from the corpse of the great beast Kazgaroth. It has multiple enchantments that all become activated when the claw is worn as a ring. The image of the wearer becomes blurred and more difficult to hit with weapons or target with spells. It has one drawback, however, as it seems to fuel its power with the blood of its wearer. Because of this, the wearer of the claw will often be more sickly and therefore more susceptible to poisons.
-
-STATISTICS:
-
-Equipped abilities:
-– Constitution: -2
-– Armor Class: +1, an extra +4 vs. missile attacks
-– Save vs. Death: -3
-– Save vs. Wand: +3
-– Save vs. Polymorph: +3
-– Save vs. Breath: +3
-– Save vs. Spell: +3
-– May only be removed with a Remove Curse spell
-
-Weight: 1~
-
 @9    = ~Woven by the finest of drow craftsmen, this mail feels more akin to cloth than to metal. The armor may be worn by Thieves with few penalties and by Fighter/Mages without removing their spellcasting ability.
 
 STATISTICS:

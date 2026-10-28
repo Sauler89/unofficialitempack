@@ -257,14 +257,6 @@ item title.
 </details>
 
 <details>
-  <summary><strong>Cloak of Displacement</strong> — Blur is gone</summary>
-</details>
-
-<details>
-  <summary><strong>The Claw of Kazgaroth</strong> — Blur is gone</summary>
-</details>
-
-<details>
   <summary><strong>Silver Dragon Scales</strong> — New drop from Adalon (Right now usable only in ToB. Modification for Cromwell will be in the next version.)</summary>
 </details>
 
