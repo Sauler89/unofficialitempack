@@ -32,6 +32,11 @@ chosen by the original author, including `2.7b`.
 
 ### Fixed
 
+- Fixed corrupted description artwork for Butcherer of Innocents. Rebuilt
+  `CLEAVERX.BAM` from the included `CLEAVERX.BMP` as a self-contained BAM V1
+  with BAMC compression. It no longer reads unrelated or missing
+  `MOS0039.PVRZ` texture data. Original frame dimensions, origin and transparent
+  silhouette are preserved.
 - Hourglass of Gond is placed in the inventory of its original recipient,
   `MAGE18Z.CRE`, without assigning or clearing any creature scripts. Vanilla
   scripts and script assignments from other mods are preserved.

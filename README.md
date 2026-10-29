@@ -283,6 +283,9 @@ Completely new (almost) original items.
 
   <img src="docs/images/items/butcherer-of-innocents.jpg" alt="Butcherer of Innocents in-game item description">
 
+  The description illustration uses a self-contained BAM rebuilt from the
+  included original artwork, avoiding dependencies on external texture pages.
+
 </details>
 
 <details>
