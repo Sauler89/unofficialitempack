@@ -30,6 +30,7 @@
   - [1. Unofficial Item Pack](#1-unofficial-item-pack)
   - [4. Holy symbols](#4-holy-symbols)
   - [5. New Items](#5-new-items)
+  - [6. SoD Items](#6-sod-items)
   - [7. Better archery shop](#7-better-archery-shop)
 - [Translations](#translations)
 - [Compatibility](#compatibility)
@@ -47,7 +48,7 @@ potential.
 So I decided to rework large number of them and "Unofficial Item Pack" was
 born.
 
-The project is divided into four optional components. Players may install only
+The project is divided into five optional components. Players may install only
 the components they want.
 
 The community-maintained continuation seeks to preserve the original concept
@@ -66,7 +67,7 @@ documentation.
 | **Installer** | WeiDU |
 | **Original languages** | English and Czech |
 | **Community translations** | Italian |
-| **Installation model** | Four optional components |
+| **Installation model** | Five optional components |
 | **New game** | Required or strongly recommended for most components |
 | **Original discussion** | [Beamdog forum](https://forums.beamdog.com/discussion/56567/mod-bgii-ee-unofficial-item-pack/p1) |
 
@@ -109,17 +110,19 @@ Before installing:
 - review the [Compatibility](#compatibility) section;
 - record the installation order;
 - preserve `WeiDU.log`;
+- normally skip SoD Items on EET installations that already import SoD content;
 - check the issue tracker for current compatibility reports;
 - use a new game for meaningful placement changes.
 
 ## Components and item catalogue
 
-Installation of this mode has four optional parts:
+Installation of this mode has five optional parts:
 
-This personal fork removes Scarlet Katana, Gourmet from Underdark, SoD Items,
-and Reworked free action. The remaining sections retain their historical numbers.
-WeiDU IDs remain 0, 3, 4, and 6. The key ring and archery ammunition are retained
-with their required graphics, independently of the removed SoD Items component.
+This personal fork removes Scarlet Katana, Gourmet from Underdark, and Reworked
+free action. The remaining sections retain their historical numbers. SoD Items
+is restored with its original WeiDU ID 5; the other IDs remain 0, 3, 4, and 6.
+The main component and Better archery shop retain their shared key ring and
+ammunition independently of whether SoD Items is selected.
 Uninstall removed components using the previous version before updating an
 existing installation.
 
@@ -325,6 +328,138 @@ Completely new (almost) original items.
 
 ---
 
+## 6. SoD Items
+
+Few useful items from SoD.
+
+(Adventure Mart)
+
+> [!IMPORTANT]
+> This component should normally be skipped on EET installations that already
+> import SoD content, because installing both implementations may create
+> duplicates.
+
+All imported graphics use private, self-contained BAM resources to avoid
+texture-page collisions. The key ring is also available when only this component
+is selected; it is not added twice if the main component is installed as well.
+
+<details>
+  <summary><strong>Backwhacker +2</strong></summary>
+
+  <img src="docs/images/items/backwhacker-plus-2.jpg" alt="Backwhacker plus 2 in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Nimblefinger Gloves</strong></summary>
+
+  <img src="docs/images/items/nimblefinger-gloves.jpg" alt="Nimblefinger Gloves in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Stalker Gauntlets</strong></summary>
+
+  <img src="docs/images/items/stalker-gauntlets.jpg" alt="Stalker Gauntlets in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Screaming Bagpipes</strong></summary>
+
+  <img src="docs/images/items/screaming-bagpipes.jpg" alt="Screaming Bagpipes in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Cloak of the Gargoyle</strong></summary>
+
+  <img src="docs/images/items/cloak-of-the-gargoyle.jpg" alt="Cloak of the Gargoyle in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Crown of Lies</strong></summary>
+
+  <img src="docs/images/items/crown-of-lies.jpg" alt="Crown of Lies in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Wizzard Hat</strong></summary>
+
+  <img src="docs/images/items/wizzard-hat.jpg" alt="Wizzard Hat in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Circlet of the Cynosure</strong></summary>
+
+  <img src="docs/images/items/circlet-of-the-cynosure.jpg" alt="Circlet of the Cynosure in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Bloody Bone Plate +2</strong></summary>
+
+  <img src="docs/images/items/bloody-bone-plate-plus-2.jpg" alt="Bloody Bone Plate plus 2 in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Robe of Arcane Aptitude</strong></summary>
+
+  <img src="docs/images/items/robe-of-arcane-aptitude.jpg" alt="Robe of Arcane Aptitude in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Shield of Egons +2</strong></summary>
+
+  <img src="docs/images/items/shield-of-egons-plus-2.jpg" alt="Shield of Egons plus 2 in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Fleshripper +2</strong></summary>
+
+  <img src="docs/images/items/fleshripper-plus-2.jpg" alt="Fleshripper plus 2 in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Daeros’ Full Plate +1</strong></summary>
+
+  <img src="docs/images/items/daeros-full-plate-plus-1.jpg" alt="Daeros’ Full Plate plus 1 in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Headband of Focus</strong></summary>
+
+  <img src="docs/images/items/headband-of-focus.jpg" alt="Headband of Focus in-game item description">
+
+  If the game’s original illustration is unavailable, a fallback derived from
+  the included headband icon is used.
+
+</details>
+
+<details>
+  <summary><strong>Tongue of Acid +3</strong> — New drop from Thaxll'ssillyia (Shadow dragon)</summary>
+
+  <img src="docs/images/items/tongue-of-acid-plus-3.jpg" alt="Tongue of Acid plus 3 in-game item description">
+
+</details>
+
+<details>
+  <summary><strong>Key Ring</strong> — New drop from Ilyich</summary>
+
+  <img src="docs/images/items/key-ring.jpg" alt="Key Ring in-game item description">
+
+</details>
+
+---
+
 ## 7. Better archery shop
 
 This guy will have much bigger inventory + some ammunition from SoD.
@@ -390,7 +525,7 @@ installation order.
 |---|---|---|
 | **BG2:EE 2.0+** | Primary target | This is the platform specified by the original release. |
 | **Throne of Bhaal content in BG2:EE** | Supported by relevant components | Some items and placements are late-game or expansion-oriented. |
-| **EET** | Historically reported as usable with restrictions | The bulk SoD Items component is removed in this fork. The main component retains its key ring and Better archery shop retains its ammunition; check these for overlap. Current community testing is still required. |
+| **EET** | Historically reported as usable with restrictions | Normally skip SoD Items if EET already imports equivalent content, to avoid duplicates. The main component and Better archery shop also retain shared key-ring/ammunition content. Current community testing is still required. |
 | **Item Revisions** | Known overlap | Historical reports identify overlap involving Blackmist and Dark Elven Chain. Review current issues before combining the affected components. |
 | **Cowled Menace** | Known historical interaction | Recent versions have worked around several conflicts, but creature inventory changes may still depend on installation order and patching behavior. |
 | **Existing saved games** | Limited reliability | Components that modify stores, creatures, drops, or encounters may require a new game. |

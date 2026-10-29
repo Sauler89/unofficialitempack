@@ -32,6 +32,15 @@ chosen by the original author, including `2.7b`.
 
 ### Fixed
 
+- Audited the imported graphics and rebuilt texture-backed BAMs as standalone
+  BAM V1 assets. Private graphical resource names prevent imports from replacing
+  other items' artwork; old loose BAM/BMP/PVRZ files are ignored on upgrade.
+- Repaired the fire/ice bolt description references and supplied Backwhacker's
+  missing description BAM. Headband of Focus preserves a game-provided picture,
+  with an icon-based fallback if its original description resource is absent.
+- The key ring now drops from Ilyich even with SoD Items installed alone; the
+  main and SoD components share a duplicate-safe placement patch. Existing NPC
+  scripts are preserved.
 - Fixed corrupted description artwork for Butcherer of Innocents. Rebuilt
   `CLEAVERX.BAM` from the included `CLEAVERX.BMP` as a self-contained BAM V1
   with BAMC compression. It no longer reads unrelated or missing
@@ -74,16 +83,19 @@ chosen by the original author, including `2.7b`.
   in all three languages, and catalogue preview. The game’s existing item is
   left untouched, including any changes made by other mods. Stale replacement
   files from older packages are excluded from installation.
-- Personal fork: removed Scarlet Katana, Gourmet from Underdark, SoD Items,
-  and Reworked free action from the installer, catalogue, and translations.
+- Personal fork: removed Scarlet Katana, Gourmet from Underdark, and Reworked
+  free action from the installer, catalogue, and translations.
 - Removed assets exclusive to those components. Retained the shared key ring
   and archery ammunition with their graphics, and made their remaining consumers
   install these dependencies independently.
-- Preserved the remaining WeiDU component IDs (0, 3, 4, 6) explicitly.
+- Preserved the remaining WeiDU component IDs (0, 3, 4, 5, 6) explicitly.
   Uninstall removed components with the previous version before updating.
 
 ### Added
 
+- Restored the optional SoD Items component with its original WeiDU ID 5,
+  all sixteen catalogue entries, item data, and all three translations. Restored
+  the EET duplicate-content warning and added a localized installer notice.
 - Established the GitHub repository as a public workspace for preservation,
   documentation, issue tracking, and community maintenance.
 - Added `README.md` with installation information, component descriptions,

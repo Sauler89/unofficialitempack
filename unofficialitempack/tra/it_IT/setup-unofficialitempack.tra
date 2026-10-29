@@ -252,6 +252,218 @@ Peso: 5~
 
 @38   = ~Macellaio degli Innocenti~
 
+@39    = ~Oggetti da Siege of Dragonspear~
+
+@40    = ~Molti ladri preferiscono armi che abbiano una lama quando colpiscono mentre sono nascosti tra le ombre, ma non tutti. Sia che si tratti di convinzioni religiose, preferenze personali o tendenze contro il sistema, alcuni ladri preferiscono colpire alle spalle i loro nemici con uno strumento contundente.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- Rende privo di sensi il bersaglio per 2 round quando viene eseguita con successo una Pugnalata alle Spalle (un tiro-salvezza contro Morte effettuato con successo nega gli effetti)
+
+THAC0 +2
+Danno: 1d6+2 (contundente)
+Fattore-velocità: 2
+Tipo di Competenza: Clava
+Tipo: A una mano
+
+Richiede:
+Forza 5
+
+Peso: 3~
+
+@41    = ~Bastonaspalle +2~
+
+@42    = ~Bastonaspalle +2~
+
+@43    = ~Realizzato con la più raffinata pelle di daino disponibile, questo paio di guanti è stato ovviamente pensato per mani gnomiche (sebbene anche i nani e altre razze di piccola taglia possano utilizzarli). Nelle giuste mani, i guanti offrono protezione e comodità in eguali proporzioni. Vestendoli come una seconda pelle, il portatore diventa più sensibile a ciò che le sue mani stanno facendo; questa maggiore concentrazione aumenta la sua agilità e la sua destrezza.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Destrezza: +2 per gli gnomi, +1 per gli halfling, i nani e i goblin
+- Svuotare Tasche: +25%
+- Piazzare Trappole: +25%
+
+Peso: 2~
+
+@44    = ~Guanti Dita Leste~
+
+@45    = ~Guanti Dita Leste~
+
+@46    = ~Questi guanti sono di supporto nell'inseguimento e nell'uccisione di una preda. I preferiti da cacciatori e furfanti di tutti i tipi, mostrano il loro pieno potere quando vengono indossati da un infiltrato. Realizzati in morbido cuoio con cinghie in ottone lungo il fianco, questi guanti sono spesso decorati con figure ricamate di cervi, volpi o, come nel caso di questo paio, lupi.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Destrezza: +1
+- Nascondersi tra le Ombre: +15% (+30% per infiltrati)
+- Moltiplicatore di Pugnalata alle Spalle: +1 (per infiltrati)
+
+Peso: 2~
+
+@47    = ~Guanti dell'Infiltrato~
+
+@48    = ~Guanti dell'Infiltrato~
+
+@49    = ~Questa cornamusa color viola scuro possiede una strana superficie pelosa. Esaminandola da vicino, sembra che sia stata realizzata con la pelle di una creatura provvista di tentacoli, ognuno dei quali è stato impiegato per realizzare i tubi ricoperti di pelo porpora dello strumento. Quando viene suonata, la cornamusa ringhia e grida come una creatura sofferente.
+
+STATISTICHE:
+
+Abilità attivabili:
+- Scoppio Sonico due volte al giorno
+  Danno: 4d8 punti di danno sonico (solo per la sottoclasse del giullare), 2d8 (per le altre classi e sottoclassi); un tiro-salvezza contro Soffio effettuato con successo dimezza il danno
+  Speciale: Assorda per 3 round (un tiro-salvezza contro Soffio effettuato con successo nega gli effetti)
+  Area d'effetto: Raggio di 4,5 metri attorno al personaggio
+
+Peso: 3~
+
+@50    = ~Cornamusa Urlante~
+
+@51    = ~Cornamusa Urlante~
+
+@52    = ~Sebbene questo mantello grigio scuro sembri essere tessuto in pietra, in realtà è morbido e flessibile come un panno. Quando viene indossato, permette di assumere una forma di pietra una volta al giorno. Questi mantelli si trovano spesso tra i duergar, i primi ad averli realizzati, ma occasionalmente raggiungono la superficie.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistenza ai danni fisici: +5%
+- Protegge contro i colpi critici
+
+Abilità attivabili:
+- Forma di Pietra una volta al giorno
+  Classe Armatura: 0
+  Tiri-salvezza: +3
+  Destrezza: -3
+  Durata: 5 turni
+
+Peso: 2~
+
+@53    = ~Mantello del Gargoyle~
+
+@54    = ~Mantello del Gargoyle~
+
+@55    = ~Questa scintillante corona appare notevole, ma in sostanza è forgiata con oro falso e le "gemme" incastonate sono soltanto pezzi di vetro colorato. Indossando la corona, il portatore potrà preparare incantesimi addizionali, ma si riempirà la mente con false conoscenze.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Permette di memorizzare due incantesimi addizionali di 3° livello, uno di 4° livello e uno di 5° livello
+- Conoscenza: -30
+
+Peso: 1~
+
+@56    = ~Corona di Menzogne~
+
+@57    = ~Corona di Menzogne~
+
+@58    = ~Questo classico cappello appuntito da mago palesa la professione di chi lo indossa grazie agli sgargianti lustrini da cui è decorato. Il cappello da mago rende il portatore molto più veloce tanto nel lanciare incantesimi quanto nel muoversi a piedi. Dopotutto, un mago che scappa da un combattimento sopravvive per scappare un altro giorno.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Il tempo di lancio degli incantesimi viene ridotto di 1
+- Fattore-movimento: +2
+
+Peso: 0~
+
+@59    = ~Cappello da Mago~
+
+@60    = ~Cappello da Mago~
+
+@61    = ~Quasi un secolo fa, la paladina di Lathander Edythe Brightsworn commissionò questo elmo mentre si preparava ad affrontare un potente vampiro. Durante i molti anni trascorsi come cavaliere del Signore del Mattino, Lady Brightsworn aveva accumulato una certa ricchezza, la maggior parte della quale venne spesa nella preparazione della sua missione. Dopo aver seguito il vampiro nella Città dei Morti di Waterdeep, riunì una compagnia di avventurieri e li guidò fin nella tana del mostro. Solo uno del gruppo fece ritorno. Insanguinato e stralunato, stringendo l'elmo di Lady Brightsworn tra le mani, raccontò degli orrendi cunicoli che il gruppo aveva trovato e del vampiro che li aveva sterminati, uccidendoli uno ad uno. Delle ricerche effettuate in seguito nella Città dei Morti, rivelarono alcuni dei cunicoli, ma tutti erano crollati. Del vampiro non c'era alcuna traccia.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Immunità a Paura, Charme e Paralisi
+- Protegge contro i colpi critici
+
+Peso: 1~
+
+@62    = ~Diadema della Focalizzazione~
+
+@63    = ~Diadema della Focalizzazione~
+
+@64    = ~Il guerriero che un tempo indossava quest'armatura morì per mano di un amico fidato. Il segno del suo tradimento rimase indelebile nelle macchie di sangue che si sono imbrunite sulla scintillante armatura di ossa bianche. Il completo svolge il suo dovere, sebbene renda sgradevole alla vista la persona che lo indossa.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Immunità alla Pugnalata alle Spalle
+- Carisma: -1
+
+Classe Armatura: 1 (-2 contro danno tagliente)
+
+Richiede:
+Forza 8
+
+Peso: 20~
+
+@65    = ~Armatura di Ossa Insanguinate +2~
+
+@66    = ~Armatura di Ossa Insanguinate +2~
+
+@67    = ~La provenienza di questa tunica di colore porpora scuro si è perduta nelle nebbie del tempo, ma un leggero odore di magia stantia, indugia nell'aria attorno al logoro capo. Colui che la indossava, chiaramente, non era estraneo alla Trama. Esaminando da vicino la tunica, si è in grado di scorgere il disegno di una fiamma stilizzata ricamata nel tessuto. Sembra probabile che l'intricato disegno sia sempre stato assai sottile, ma anche se non fosse così, innumerevoli anni di usura hanno reso le fiamme quasi del tutto invisibili.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Intelligenza: +1
+- Classe Armatura: 5
+
+Abilità attivabili: 
+- Sequenziatore di Incantesimi una volta al giorno
+
+Peso: 3~
+
+@68    = ~Tunica dell'Attitudine Arcana~
+
+@69    = ~Tunica dell'Attitudine Arcana~
+
+@70    = ~Gli Egon erano una famiglia di fedeli adoratori di Lathander che avevano guadagnato la loro fortuna proteggendo i più deboli. Anche se la discendenza degli Egon si è interrotta, la loro influenza si avverte ancora tramite la presenza di questo scudo, un raffinato oggetto imbevuto della potenza del Signore del Mattino.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +3
+- Livello di Scacciare Non morti: +1 (+2 per i sacerdoti di Lathander e i cacciatori di non morti)
+
+Richiede:
+Forza 12
+
+Peso: 6~
+
+@71    = ~Scudo degli Egon +2~
+
+@72    = ~Scudo degli Egon +2~
+
+@73    = ~Nonostante il nome intimidatorio di questo arco corto, la sua storia non è così terribile. Kitsana, un'elfa ranger, concepì questo arco per il suo uso personale ed era in grado di utilizzarlo con incredibile velocità. Una notte, mentre erano accampati, i membri del gruppo di Kitsana decisero, a turno, di provare a padroneggiare la corda insolitamente sottile e la presa curva dell'arma. Nessuno riuscì a scoccare malamente quanto il guerriero, uno spaccone di nome Tirrel, che non solo mancò il suo bersaglio di mezzo metro, ma fu anche colpito dalla corda dell'arco lungo tutto l'avambraccio, tanto da perdere un grosso lembo di pelle. La memoria di Kitsana e del suo gruppo è scomparsa tra le nebbie del tempo, ma il suo arco è ancora in circolazione.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- 5% di possibilità di velocizzare il possessore per 4 round ad ogni colpo
+
+Abilità durante l'uso:
+- Fattore-movimento: +2
+
+THAC0: +2
+Danno: +2
+Fattore-velocità: 4
+Tipo di Competenza: Arco Corto
+Tipo: A due mani
+
+Richiede:
+Forza 3
+Destrezza 16
+
+Peso: 1~
+
+@74    = ~Squarciapelle +2~
+
+@75    = ~Squarciapelle +2~
+
 @76    = ~Questo quadrello è stato magicamente incantato in modo da diventare avviluppato dalle fiamme quando viene scagliato. L'effetto è simile a quello di un quadrello impregnato di petrolio a cui viene dato fuoco.
 
 STATISTICHE:
@@ -336,6 +548,48 @@ Peso: 0~
 
 @94    = ~Portachiavi~
 
+@95    = ~Questo pesante pettorale di acciaio reca l'immagine di un drago di rame nell'atto di impennarsi. L'armoniosità delle forme e il raffinato dettaglio dell'immagine del drago suggeriscono una manifattura nanica.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistenza al Fuoco: +40%
+- Tiri-salvezza contro Soffio: +2
+
+Classe Armatura: 0 (-4 contro danno tagliente, -3 contro danno perforante e da proiettile)
+
+Richiede:
+Forza 15
+
+Peso: 30~
+
+@96    = ~Cotta di Piastre Completa di Daeros +1~
+
+@97    = ~Cotta di Piastre Completa di Daeros +1~
+
+@98    = ~Questa spada lunga infernale, forgiata per assomigliare alla lingua di un diavolo, ha una lama "più tagliente di qualsiasi urlo" secondo la scrittura sull'elsa. Il suo bordo fende facilmente l'armatura e le ossa e lascia un residuo acido che sfrigola nelle ferite inflitte. Il dolore che ne deriva è così acuto che le sue vittime, a causa dell'agonia, accusano evidenti difficoltà motorie e camminano più lentamente.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- 10% di possibilità per colpo di rallentare il bersaglio per 3 round (effettuare con successo un tiro-salvezza contro Incantesimi nega gli effetti)
+
+THAC0: +3
+Danno: 1d8+3, +1d3 punti di danno da acido
+Tipo di Danno: Tagliente
+Fattore-velocità: 2
+Tipo di Competenza: Spada Lunga
+Tipo: A una mano
+
+Richiede:
+Forza 6
+
+Peso: 2~
+
+@99    = ~Lingua Acida +3~
+
+@100    = ~Lingua Acida +3~
+
 @101    = ~Questa statuetta di meraviglioso potere è stata ultimamente in possesso di Drizzt Do'Urden, che ha trattato Guenhwyvar come suo fidato compagno animale. Può essere evocata al fianco del suo padrone per otto ore ogni giorno. Nonostante sarebbe possibile per Guenhwyvar stare al di fuori del Piano Astrale molto più a lungo, questo le causerebbe un'incredibile sonnolenza che le farebbe a stento tenere la testa alzata.
 
 STATISTICHE:
@@ -357,6 +611,23 @@ STATISTICHE:
 
 Abilità attivabili:
 – Fermare il Tempo una volta al giorno
+
+Peso: 1~
+
+@107    = ~Bandana della Concentrazione~
+
+@108    = ~Bandana della Concentrazione~
+
+@109    = ~Un adoratore di Nobanion realizzò questa bandana di seta dorata, ricamata con astratti leoni in movimento lungo la sua lunghezza, mentre meditava sugli insegnamenti di Lord Firemane. Quando fu completa, l'adoratore scoprì che Nobanion aveva premiato la sua fede concedendo alla bandana la capacità di evocare un'ondata di potenza in chi la indossava.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- THAC0: +2 (con attacchi a mani nude)
+- Possibilità di Colpo Critico: +5% (con attacchi a mani nude)
+
+Abilità attivabili:
+- Convocare la Sacra Potenza una volta al giorno
 
 Peso: 1~
 
@@ -388,3 +659,4 @@ Peso: 6~
 
 @117 = ~- Forza: +1~
 @118 = ~- Punti Ferita: +10~
+@119 = ~Oggetti di SoD: EET può già importare questi contenuti. In tali installazioni è normalmente consigliato saltare questo componente per evitare oggetti duplicati.~

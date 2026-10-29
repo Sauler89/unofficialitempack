@@ -252,6 +252,215 @@ Weight: 5~
 
 @38   = ~Butcherer of Innocents~
 
+@39    = ~SoD items~
+
+@40    = ~Most thieves favor bladed weapons when striking from the shadows, but not all. Whether due to religious convictions, personal preference, or anti-establishment tendencies, some thieves prefer to backstab their enemies with a blunt instrument.
+
+STATISTICS:
+
+Combat abilities: 
+– Renders the target unconscious for 2 rounds (Save vs. Death negates) when a backstab is performed
+
+THAC0: +2 
+Damage: 1d6+2 (crushing) 
+Speed Factor: 2 
+Proficiency Type: Club 
+Type: One-handed 
+Requires: 
+ 5 Strength
+
+Weight: 3~
+
+@41    = ~Backwhacker +2~
+
+@42    = ~Backwhacker +2~
+
+@43    = ~Fashioned from the finest doeskin available, this pair of gloves was obviously designed for gnomish hands (though dwarves and other shorter races might also be able to use them). For the right wearer, the gloves offer protection and comfort in equal proportion. Fitting like a second skin, the user becomes more sensitive to what their hands are doing; this added focus increases the wearer's nimbleness and dexterity.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +2 for gnomes, +1 for halflings, dwarves, and goblins
+– Pick Pockets: +25%
+– Set Traps: +25%
+
+Weight: 2~
+
+@44    = ~Nimblefinger Gloves~
+
+@45    = ~Nimblefinger Gloves~
+
+@46    = ~These gauntlets assist in the stalking and killing of prey. Favored by hunters and rogues of all kinds, they display their full power when donned by a Stalker. Made of supple leather with brass-buckled straps along the side, these gauntlets are often decorated with embroidered figures of stags, foxes, or, as is the case with this pair, wolves.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+– Hide in Shadows: +15% (+30% for Stalkers)
+– Backstab Multiplier: +1 (Stalkers only)
+
+Weight: 2~
+
+@47    = ~Stalker Gauntlets~
+
+@48    = ~Stalker Gauntlets~
+
+@49    = ~This deep purple set of bagpipes has an odd, furry texture to it. On closer inspection, the bagpipes appear to have been made of the hide of some tentacled creature, with each of its furry purple tentacles becoming one of the instrument's pipes. When played, the bagpipe growls and screeches like a creature in pain.
+
+STATISTICS:
+
+Charge abilities:
+– Sound Burst twice per day. If played by a Jester the bagpipes deal double damage.
+
+Sound Burst: 
+Deals 2d8 points of sonic damage to all enemies within 30 feet of the bard and deafens them for 3 rounds. A save vs. breath halves the damage and prevents the deafness.
+
+Weight: 3~
+
+@50    = ~Screaming Bagpipes~
+
+@51    = ~Screaming Bagpipes~
+
+@52    = ~Though this dark gray cloak appears to be made of stone, it is soft and flexible as cloth. When donned, it allows its wearer to assume a statue-like form once per day. These cloaks are often found among the duergar, who first designed them, but occasionally one winds up on the surface. 
+
+STATISTICS:
+
+Equipped abilities:
+– Physical Damage Resistance: +5%
+– Protects against critical hits
+
+Charge abilities (once per day):
+– Stone Form
+  Armor Class: 0
+  Saving Throws: +3
+  Dexterity: -3
+  Duration: 5 turns
+
+Weight: 2~
+
+@53    = ~Cloak of the Gargoyle~
+
+@54    = ~Cloak of the Gargoyle~
+
+@55    = ~This glittering golden crown looks impressive, but its substance is base fool's gold and the "gems" set around it are bits of colored glass. Placing the crown on one's head allows the wearer to prepare extra spells but fills the head with false knowledge. 
+
+STATISTICS:
+
+Equipped abilities:
+– Can memorize 2 extra 3rd-level, 1 extra 4th-level, and 1 extra 5th-level wizard spell
+– Lore: -30
+
+Weight: 1~
+
+@56    = ~Crown of Lies~
+
+@57    = ~Crown of Lies~
+
+@58    = ~This classic pointed wizard's hat has the wearer's title emblazoned across it in rather gaudy sequins. The wizzard's hat makes the wearer much faster, both in casting and on foot. A wizard who runs away from combat lives to run away another day, after all.
+
+STATISTICS:
+
+Equipped abilities:
+– Casting Speed: +1
+– Movement Speed: +2
+
+Weight: 0~
+
+@59    = ~Wizzard Hat~
+
+@60    = ~Wizzard Hat~
+
+@61    = ~Almost a century ago, paladin of Lathander Edythe Brightsworn commissioned this helm while preparing to face a powerful vampire. During her many years as a knight of the Morninglord, Lady Brightsworn had accumulated some wealth, most of which she spent in preparation for her quest. After tracking the vampire to Waterdeep's City of the Dead, she assembled a party of adventurers and led them into the monster's lair. Only one of the group returned. Bloodied and wild-eyed, clutching Lady Brightsworn's helm in his hands, he relayed a tale of the nightmarish warrens the group had found and the vampire who culled them from their group, slaughtering them one by one. Investigations into the City of the Dead uncovered some of the tunnels, but all had collapsed. Of the vampire, there was no trace.
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to fear, charm, and paralysis
+– Protects against critical hits
+
+Weight: 1~
+
+@62    = ~Circlet of the Cynosure~
+
+@63    = ~Circlet of the Cynosure~
+
+@64    = ~The warrior who once wore this armor died at the hands of a friend she trusted. The mark of her betrayal remains in the bloodstains that have darkened to brown on the gleaming bone-white armor. The armor functions properly, though it makes the wearer unappealing to look at.
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to backstab
+– Charisma: -1
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 8 Strength
+
+Weight: 20~
+
+@65    = ~Bloody Bone Plate +2~
+
+@66    = ~Bloody Bone Plate +2~
+
+@67    = ~The provenance of this dark purple robe has been lost in the mists of history, but a faint odor of stale magic lingers in the air around the threadbare garment. The one who wore it was clearly no stranger to the Weave. Closely examining the robe, you are able to pick out a stylized flame design woven into the fabric. It seems likely the intricate pattern was always subtle, but even were that not true, countless years of wear have rendered the flames all but invisible.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: 5
+– Intelligence: +1
+
+Charge abilities:
+– Spell Sequencer once per day
+
+Weight: 3~
+
+@68    = ~Robe of Arcane Aptitude~
+
+@69    = ~Robe of Arcane Aptitude~
+
+@70    = ~The Egons were a family of well-respected Lathander worshippers that earned their fortune protecting those weaker than themselves. Though the Egon line has ended, its influence is still felt in the form of this shield, which is imbued with some of the power of the Morninglord himself.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +3
+– Turn Undead Level: +1 (+2 for Priests of Lathander and Undead Hunters)
+
+Requires:
+ 12 Strength
+
+Weight: 6~
+
+@71    = ~Shield of Egons +2~
+
+@72    = ~Shield of Egons +2~
+
+@73    = ~Despite this short bow's intimidating name, it carries no gruesome history. Kitsana, an elven ranger, designed this bow for her own use and could fire it with astonishing rapidity. One night at camp Kitsana's party each took a turn trying to master the unusually thin bowstring and uniquely curved grip of the weapon. None shot as poorly as the fighter, a braggart named Tirrel, who not only missed his target by a foot but who snapped the bowstring down the length of his forearm and tore off a strip of skin. Kitsana and her party faded into obscurity decades ago but her bow still circulates.
+
+STATISTICS:
+
+Combat abilities:
+– 5% chance of hasting the wielder for 4 rounds on each hit
+
+Equipped abilities: 
+– Movement Speed: +2
+
+THAC0: +2
+Damage: +2
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 3 Strength
+16 Dexterity
+
+Weight: 1~
+
+@74    = ~Fleshripper +2~
+
+@75    = ~Fleshripper +2~
+
 @76    = ~This bolt is magically enhanced so as to burst into flames when it is fired. The effect is similar to a bolt doused in oil and set to flame.
 
 STATISTICS:
@@ -336,6 +545,45 @@ Weight: 0~
 
 @94    = ~Key ring~
 
+@95    = ~This heavy steel breastplate bears the image of a soaring copper dragon on the front. The lightness of the breastplate and the fine detail on the dragon's image suggest dwarven craftsmanship.
+
+STATISTICS:
+
+Equipped abilities:
+– Fire Resistance: +40%
+– Save vs. Breath: +2
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 30~
+
+@96    = ~Daeros' Full Plate +1~
+
+@97    = ~Daeros' Full Plate +1~
+
+@98    = ~This infernal longsword, forged to resemble a devil's tongue, has a blade "sharper than any scream" according to the writing on the hilt. Its edge cuts easily through armor and bone and leaves acid sizzling in the wounds it inflicts. The pain its wounds inflict is so severe that its victims have difficulty functioning, even walking, due to the agony.
+
+STATISTICS:
+
+Combat abilities:
+– 10% chance per hit of slowing the target for 3 rounds (Save vs. Spell negates)
+
+THAC0: +3
+Damage: 1d8+3 (slashing), +1d3 (acid)
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+@99    = ~Tongue of Acid +3~
+
+@100    = ~Tongue of Acid +3~
+
 @101    = ~This figurine of wondrous power was last in the possession of Drizzt Do'Urden, who treated Guenhwyvar as his ranger animal companion. She can be summoned to her master's side for eight hours every day. However, it is possible for her to be away from the astral plane for longer, but this causes her to become incredibly drowsy, barely able to lift her head.
 
 STATISTICS:
@@ -357,6 +605,23 @@ STATISTICS:
 
 Charge abilities:
 – Time Stop once per day
+
+Weight: 1~
+
+@107    = ~Headband of Focus~
+
+@108    = ~Headband of Focus~
+
+@109    = ~A worshipper of Nobanion crafted this gold silk headband, embroidered with abstract running lions along its length, while meditating on the teachings of Lord Firemane. When the headband was complete, the worshipper found that Nobanion had rewarded his fealty by granting the headband the ability to conjure a surge of might within the wearer.
+
+STATISTICS:
+
+Equipped abilities:
+– THAC0: +2 with unarmed attacks
+– Critical Hit Chance: +5% (unarmed attacks only)
+
+Charge abilities:
+– Draw Upon Holy Might once per day
 
 Weight: 1~
 
@@ -388,3 +653,4 @@ Weight: 6~
 
 @117 = ~- Strength: +1~
 @118 = ~- Hit Points: +10~
+@119 = ~SoD Items: EET may already import this content. Normally skip this component on such EET installations to avoid duplicate items.~

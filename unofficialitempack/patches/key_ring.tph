@@ -1,0 +1,20 @@
+// Shared by the main component and SoD Items. Preserve scripts and existing loot.
+COPY_EXISTING ~DUECLA01.CRE~ ~override~
+  PATCH_IF (SOURCE_SIZE >= 0x2d4) BEGIN
+    READ_ASCII 0 uip_key_signature (8)
+    PATCH_IF (~%uip_key_signature%~ STRING_EQUAL ~CRE V1.0~) BEGIN
+      READ_LONG 0x2bc uip_key_items_offset
+      READ_LONG 0x2c0 uip_key_items_count
+      SET uip_key_found = 0
+      FOR (uip_key_i = 0; uip_key_i < uip_key_items_count; ++uip_key_i) BEGIN
+        READ_ASCII (uip_key_items_offset + 0x14 * uip_key_i) uip_key_item (8) NULL
+        PATCH_IF (~%uip_key_item%~ STRING_EQUAL_CASE ~bdkeyr~) BEGIN
+          SET uip_key_found = 1
+        END
+      END
+      PATCH_IF NOT uip_key_found BEGIN
+        ADD_CRE_ITEM ~bdkeyr~ #0 #0 #0 ~IDENTIFIED~ ~INV~
+      END
+    END
+  END
+  BUT_ONLY
